@@ -4,18 +4,20 @@ import javax.annotation.Resource;
 
 import org.springframework.beans.factory.annotation.Required;
 
+import javax.annotation.Resource;
+@SuppressWarnings("deprecation")
 public class Employee {
  
     private String id;
     private String name;
  
-   @Resource(name="mycompany")
+    @Resource(name="mycompany")
     private Company company;
  
     public String getId() {
         return id;
     }
-   @Required
+    @Required
     public void setId(String id) {
         this.id = id;
     }
