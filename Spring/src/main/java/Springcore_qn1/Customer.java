@@ -8,14 +8,14 @@ public class Customer {
 	private long customerContact;
 	private Address customerAddress;
 	
-	
-	public Customer(int customerId, String customerName, long customerContact, Address customerAddress) {
-		super();
-		this.customerId = customerId;
-		this.customerName = customerName;
-		this.customerContact = customerContact;
-		this.customerAddress = customerAddress;
-	}
+//	
+//	public Customer(int customerId, String customerName, long customerContact, Address customerAddress) {
+//		super();
+//		this.customerId = customerId;
+//	this.customerName = customerName;
+//		this.customerContact = customerContact;
+//		this.customerAddress = customerAddress;
+//	}
 	
 	public int getCustomerId() {
 		return customerId;

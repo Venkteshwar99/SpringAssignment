@@ -14,7 +14,7 @@ public class CustomerTest_qn1 {
 		Customer cust = (Customer)context.getBean("customerConstructor");
 		
 		 
-		Customer obj2 = new Customer(1, "Rahul", 9860782947L,new Address("xyz", "Pune", "Maharashtra", "442301", "India"));
+		Customer obj2 = new Customer();
 		
 		
 		if (cust.getCustomerName().equals(obj2.getCustomerName())) {
